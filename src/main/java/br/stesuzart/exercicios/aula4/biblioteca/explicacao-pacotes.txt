@@ -1,0 +1,16 @@
+br/
+ └─ stesuzart/
+      └─ biblioteca/
+            ├─ modelo/          ← classes que representam “coisas” (entidades)
+            │     ├─ Autor.java
+            │     ├─ Categoria.java
+            │     ├─ Livro.java
+            │     ├─ LivroFisico.java
+            │     └─ LivroDigital.java
+            │
+            ├─ negocio/         ← regras, serviços, lógica de negócio
+            │     └─ Biblioteca.java
+            │
+            ├─ AppBiblioteca.java ← classes com main (execução do sistema)
+            │
+            └─ util/            ← (opcional) classes auxiliares
